@@ -1,0 +1,17 @@
+.container{
+ display: grid;
+ grid-template-columns: repeat(7,1fr);
+ gap: 2rem;
+
+}
+
+.book img{
+    width: 100%;
+    
+}
+
+.book{
+    border: 1px solid lightgray;
+    padding: 2rem;
+    text-align: center;
+}
